@@ -1,0 +1,5 @@
+*
+!src
+!requirements.txt
+!data/lichess_db_puzzle.sqlite
+!docker-entrypoint.sh

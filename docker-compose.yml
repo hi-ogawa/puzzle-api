@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  web:
+    image: registry.heroku.com/hiro18181-puzzle-api/web
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    network_mode: host
+    environment:
+      - PORT=5000
